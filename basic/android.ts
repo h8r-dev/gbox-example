@@ -6,7 +6,7 @@ import open from 'open';
 const gbox = new GboxClient();
 
 // Initialize Android box (default lifecycle: 5 minutes, will be automatically released after 5 minutes)
-const android = await gbox.initAndroid("a420be5e-3137-411d-9da3-889af5eb88ec");
+const android = await gbox.initAndroid();
 // Or you can use an existing simulator directly
 //const android = await gbox.initAndroid("2f85cd9e-b314-45f3-ab13-5bcc57dacaf2")
 console.log("gbox id: ", android.sandboxId)
