@@ -14,7 +14,7 @@ npm i
 # Set up your GBOX API KEY
 export GBOX_API_KEY=xxx
 
-# Run the example
+# Run the android example
 node basic/android.ts
 ```
 
