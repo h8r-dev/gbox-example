@@ -20,7 +20,7 @@ node basic/android.ts
 # Run the terminal gbox
 # node basic/terminal.ts
 
-# TODO: Run the broswer gbox
+# WIP: Run the broswer gbox
 # node basic/broswer.ts
 ```
 
