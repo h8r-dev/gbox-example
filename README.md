@@ -14,8 +14,14 @@ npm i
 # Set up your GBOX API KEY
 export GBOX_API_KEY=xxx
 
-# Run the android example
+# Run the android gbox
 node basic/android.ts
+
+# Run the terminal gbox
+# node basic/terminal.ts
+
+# TODO: Run the broswer gbox
+# node basic/broswer.ts
 ```
 
 Enjoy your android simulator!
@@ -31,6 +37,7 @@ Enjoy your android simulator!
 - After drag
 
 ![After Drag](./screenshot/after_drag.png)
+
 
 ### TODO
 - Google search E2E
