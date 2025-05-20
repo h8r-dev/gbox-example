@@ -55,11 +55,11 @@ await android.keypress("enter");
 
 // await android.drag([500, 1000], [500, 400], 800);
 
-// wait for 3 sec
-await new Promise(resolve => setTimeout(resolve, 3000));
-
 // Returns screenshot as base64 encoded string
 const screenshot = await android.screenshot();
+
+// wait for 3 sec
+await new Promise(resolve => setTimeout(resolve, 3000));
 
 // You can save screenshot as PNG file
 const base64Data = screenshot.replace(/^data:image\/png;base64,/, '');
