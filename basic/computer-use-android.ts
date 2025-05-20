@@ -174,7 +174,7 @@ async function computerUseLoop(android: any, response: any) {
 
 async function main() {
     const gbox = new GboxClient();
-    const android = await gbox.initAndroid("d4c6f7b9-530a-4000-bfa2-8720b834f14e");
+    const android = await gbox.initAndroid();
     console.log("gbox id: ", android.sandboxId);
 
     // Create readline interface for user input
